@@ -1,0 +1,99 @@
+.card-title{
+ color: #090909 !important;
+}
+.container{
+    margin-top: 20px !important;
+}
+
+h1{
+color: rgb(12, 1, 14);
+font-size: 60px;
+text-align: center;
+}
+h7{
+    color:black;
+    font-size:40px;
+    text-align: center;
+}
+.alias{
+    color: rgb(75, 67, 23);
+}
+
+.card{
+    max-width: 400px;
+    text-align: center;
+    background-color: rgb(210, 177, 122);
+}
+
+/* Estilo para centrar la fila con justify-content-center */
+.center-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+main {
+    padding: 20px;
+    text-align: center;
+  }
+  .star-background {
+    background: url("assets/img/fondo05.avif") no-repeat center center fixed;
+    /* El atributo "fixed" asegura que la imagen se mantenga fija en el fondo */
+    background-size: cover;
+    /* "cover" hace que la imagen de fondo cubra toda el área visible */
+    animation: moveStars 10s linear infinite;
+    /* Ajusta la velocidad y la duración según sea necesario */
+  }
+  
+  @keyframes moveStars {
+    0% {
+      background-position: 0 0;
+    }
+    25% {
+      background-position: 100% 0;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    75% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 0 0;
+  }
+  }
+  .social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    background-color: #3b5998;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #3578e5;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+}
+
+.social-button.instagram {
+    background-color: #e4405f;
+}
+
+
+
+
